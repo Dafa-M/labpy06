@@ -62,69 +62,48 @@ Pakai menu() untuk memulai sebuah program ketika dirun :
 Tahap akhir adalah uji coba code program yang sudah dibuat dengan mencoba berbagai kemungkinan yang ada.
 
 #### Case 1 :
-Kondisi pertama kita akan coba melihat tabel dengan inputkan L tampa menambahkan data/masih kosong, maka akan ditampilkan isi tabel masih belum ada datanya :
-
-![gambar](ss/8.png)
-
-#### Case 2 :
-Kondisi kedua selanjutnya mencoba menambahkan data nilai mahasiswa pada tabel, dengan menginputkan T untuk menambahkan data nilai.
-
-- Tambahkan data nilai :
-    - NIM : 312410387
-    - Nama : Dafa Maulana
-    - Nilai Tugas : 90
-    - Nilai UTS : 85
-    - Nilai UAS : 79
+Kondisi pertama kita akan coba melihat tabel dengan inputkan 2 tampa menambahkan data/masih kosong, maka akan ditampilkan isi tabel masih belum ada datanya, akan ditampilkan 'Belum ada Data Mahasiswa' :
 
 ![gambar](ss/9.png)
 
-#### Case 3 :
-Selanjutnya, kondisi ketiga kembali dengan menginputkan L untuk melihat daftar nilai pada tabel, dari kondisi sebelumnya yang sudah menambahkan data nilai maka akan terlihat pada isi tabel :
+#### Case 2 :
+Kondisi kedua selanjutnya mencoba menambahkan data mahasiswa pada tabel, dengan menginputkan 1 untuk menambahkan data mahasiswa.
+
+- Untuk perawalan, mencoba memasukan satu data mahasiswa :
+    - Nama : Dafa Maulana
+    - Nilai : 89
 
 ![gambar](ss/10.png)
 
-#### Case 4 :
-Masuk kondisi keempat kita akan coba mengubah data, ada data yang salah diinputkan pada Nilai UTS dan Nilai UAS, Nilai UTS 85 diubah menjadi 80 dan Nilai UAS 79 diubah menjadi 89, sebelum itu inputkan U untuk mengubah maka akan ditampilkan daftar nilai tabel dan diminta untuk memasukan nomor yang ingin diubah data nilai -nya. User diminta memasukan kembali data valid yang akan diubah.
-
-- kita coba memasukan data berikut :
-    - NIM : 312410387
-    - Nama : Dafa Maulana
-    - Nilai Tugas : 90
-    - Nilai UTS : 80
-    - Nilai UAS : 89
+#### Case 3 :
+Selanjutnya, kondisi ketiga kembali dengan menginputkan 2 untuk melihat daftar data mahasiswa pada tabel, namun dari kondisi sebelumnya yang sudah menambahkan data mahasiswa saya coba tambahkan 3 data mahasiswa lagi. maka akan terlihat pada isi tabel :
 
 ![gambar](ss/11.png)
 
-#### Case 5 : 
-Lalu, kita akan coba lihat kembali pada tabel dengan menginputkan L untuk lihat apakah daftar/data nilai sudah berubah sesuai yang sudah diinputkan sebelumnya :
+#### Case 4 :
+Masuk kondisi keempat kita akan coba mengubah data, ada data yang salah diinputkan pada Nilai Mahasiswa 89 diubah menjadi 90, sebelum itu inputkan 4 untuk mengubah maka akan ditampilkan daftar nilai tabel dan diminta untuk memasukan nama mahasiswa yang ingin diubah data nilai -nya. User diminta memasukan kembali data valid yang akan diubah.
+
+- Coba memasukan data mahasiswa berikut :
+    - Nama : Dafa Maulana
+    - Nilai : 90
 
 ![gambar](ss/12.png)
 
-#### Case 6 :
-Kondisi keenam kita ingin mencari sebuah data nilai seorang mahasiswa namun karena banyak nya data mungkin membuat kita tidak tau dimana letak nya, namun dengan menginputkan C sebagai perintah untuk mencari akan memudahkan user, setelah menginputkan C user diminta memasukan nama yang ingin dicari, setelah sudah maka akan muncul nama tersebut dalam tabel :
+#### Case 5 : 
+Kondisi keenam, kita mencoba menghapus sebuah data mahasiswa dengan menginputkan 3 untuk menghapuskan data mahasiswa lalu user diminta memasukan nama mahasiswa yang akan dihapus :
 
 ![gambar](ss/13.png)
 
-#### Case 7 : 
-Kondisi ketujuh, kita mencoba menghapus sebuah data nilai mahasiswa dengan menginputkan H sebagai hapus user diminta memasukan sebuah nomor urut yang akan dihapus data nilai mahasiswa :
+#### Case 6 :
+Jika semua data atau program input sudah selesai semua, user dapat menginputkan 5 untuk keluar dari progam :
 
 ![gambar](ss/14.png)
-
-#### Case 8 :
-Setelah dihapus kita akan coba lihat daftar/data nilai mahasiswa yang sudah dihapus pada tabel apakah sudah tidak ada atau masih ada, karena kita hanya menginputkan 1 data nilai saja maka output yang akan tampil adalah sebagai berikut :
-
-![gambar](ss/15.png)
-
-#### Case 9 :
-Jika semua data atau program input sudah selesai semua, user dapat menginputkan K untuk keluar dari progam :
-
-![gambar](ss/16.png)
 
 
 
 ## FLOWCHART DAFTAR NILAI
 
-![gambar](ss/17.png)
+![gambar]
 
 
 ### Step 1 :
