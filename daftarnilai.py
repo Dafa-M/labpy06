@@ -9,7 +9,7 @@ def tambah():
     print("-" * 42)
     data_mahasiswa.append({"nama": nama, "nilai": nilai})
     print("=" * 42)
-    print("|    --- Data berhasil ditambahkan! ---  |")
+    print("|   --- Data berhasil ditambahkan! ---   |")
     print("=" * 42)
 
 def tampilkan():
